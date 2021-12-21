@@ -53,7 +53,7 @@ h1{
  // transform:translate(-50%,-50%);
 }
 
-.number{
+.secret-number{
   background: #aef;
   color:#434;
   font-size:8rem;
@@ -66,6 +66,48 @@ h1{
   //transform:translate(-50%,-50%);
 }
 
-.range{
-  font-size
+.number-range{
+  font-size:2rem;
+  position:absolute;
+  top:2rem;
+  right:2rem;
+}
+
+.again{
+  position:absolute;
+  top:2rem;
+  left:2rem;
+}
+
+.beat-highscore{
+  position:absolute;
+  bottom:2rem;
+  right:2rem;
+}
+
+.guess{
+  border:none;
+  background-color:#aef;
+  color:#434;
+  font-size:2rem;
+  font-family:inherit;
+  padding:2rem 3rem;
+  cursor:pointer;
+}
+
+.label-score{
+  margin-bottom:4rem;
+}
+  
+
+.btn:hover{
+  background-color:#dab;
+}
+
+.message{
+  margin-bottom:10rem;
+  height:3rem;
+}
+
+
 
