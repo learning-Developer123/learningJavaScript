@@ -79,12 +79,6 @@ h1{
   left:2rem;
 }
 
-.beat-highscore{
-  position:absolute;
-  bottom:2rem;
-  right:2rem;
-}
-
 .guess{
   border:none;
   background-color:#aef;
