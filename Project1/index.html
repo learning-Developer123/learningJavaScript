@@ -4,14 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spot The Number!, Can you?</title>
-    <link href="" rel="stylesheet" type="text/css"  />
-  </head>
-  
+    <link href="https://github.com/learning-Developer123/learningJavaScript/blob/main/Project1/script.js" rel="stylesheet" type="text/css"  />
+    <script src=""></script>
+ </head>
   
  <body>
+  <header>
+    <h1>Can You Guess My Number</h1>
+    <p class="number-range">Range(1-30)</p>
+    <button class="btn again">Want To Play Again!</button>
+    <button class="btn beat-high-score">Want To Beat The HighScore? Click Me</button>
+    <div class="secret-number">?</div>
+  </header>
    
+   <main>
+     <section class="toLeft">
+       <input type="number" class="guess" />
+       <button class="btn check">Check</button>
+     </section>
+     
+     <section class="toRight">
+       <p class="message">Start The Game.....</p>
+       <p class="label-score">💯 Score:<span class="score">20</span> </p>
+       <p class="label-highscore">🏆 HighScore: <span class ="highscore">0</span> </p>
+     </section>
+     
+   </main>
    
-  </body>
-  
-  
+ </body>
 </html>
