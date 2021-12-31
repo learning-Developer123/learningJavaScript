@@ -108,6 +108,7 @@ h1 {
 }
 
 .message {
+  padding-top:10px;
   margin-bottom: 0;
   height: 3rem;
 }
